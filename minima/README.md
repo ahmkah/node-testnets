@@ -5,6 +5,16 @@
 
 # Node kurulumu
 
+## root yetkisi kazanıyoruz.
+```
+sudo su
+```
+
+## root dizini altına gidiyoruz.
+```
+cd /root
+```
+
 ## Minima scriptimizi çalıştırıyoruz.
 ```
 wget -O minima_setup.sh https://raw.githubusercontent.com/minima-global/Minima/master/scripts/minima_setup.sh && chmod +x minima_setup.sh && sudo ./minima_setup.sh -r 9002 -p 9001
@@ -20,6 +30,7 @@ wget -O minima_setup.sh https://raw.githubusercontent.com/minima-global/Minima/m
 ```
 curl 127.0.0.1:9002/incentivecash+uid:INCENTIVE-ID
 ```
+![image](https://user-images.githubusercontent.com/73015593/181464102-f4d48d1c-6a55-4e0d-8b9f-af181900161c.png)
 ![id](https://user-images.githubusercontent.com/73015593/178372682-2bd6eb63-cbea-492c-a7b9-e9fd0fbff7bd.jpg)
 
 
